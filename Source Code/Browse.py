@@ -28,7 +28,7 @@ class Ui_Dialog(object):
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def get_file(self, Dialog):
-    	self.name = QFileDialog().getOpenFileName(Dialog, "Open image",r"C:\Users\indu\Desktop\share_you")
+    	self.name = QFileDialog().getOpenFileName(Dialog, "Open image",r"C:")
     	self.file.setText(self.name[0])
 
     def next(self):
